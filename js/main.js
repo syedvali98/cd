@@ -9,7 +9,7 @@
     
     var cfg = {
         scrollDuration : 800, // smoothscroll duration
-        mailChimpURL   : 'https://candidfella.us19.list-manage.com/subscribe/post?u=bf5b0d8c68dcd8cf72072ac9f&amp;id=83461ce34a'   // mailchimp url
+        mailChimpURL   : 'https://candidfella.us19.list-manage.com/subscribe/post?u=bf5b0d8c68dcd8cf72072ac9f&amp;id=83461ce34a'  // mailchimp url
     },
 
     $WIN = $(window);
@@ -18,6 +18,13 @@
     // will be used for IE10 detection (Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0))
     var doc = document.documentElement;
     doc.setAttribute('data-useragent', navigator.userAgent);
+
+
+
+  //  <form action="https://candidfella.us19.list-manage.com/subscribe/post?u=bf5b0d8c68dcd8cf72072ac9f&amp;id=83461ce34a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        
+  
+
 
 
    /* Preloader
